@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3 # Check out the repository code
       - name: Run a simple script
-        run: echo "Hello, GitHub Actions!
+        run: echo "Hello, GitHub Actions!"
       - name: Run tests
         run: |
           echo "Running tests..."
